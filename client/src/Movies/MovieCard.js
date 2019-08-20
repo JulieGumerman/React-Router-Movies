@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const MovieCard = props => {
+
   return (
     <div className="save-wrapper">
       <div className="movie-card">
@@ -24,9 +25,10 @@ const MovieCard = props => {
             )} 
 
       </div>
-      <div className="save-button">Save</div>
+      <div className="save-button" >Save</div>
     </div>
   )
+
 };
 
 export default MovieCard;

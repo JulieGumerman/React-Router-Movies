@@ -60,13 +60,28 @@ body {
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
+  color: black;
+  text-decoration: none;
 }
 .save-button:hover {
   background-color: green;
   color: white;
 }
 
+.home-link {
+  text-decoration: none;
+}
+
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+  text-decoration: none;
 }
+
+.movie-links {
+  text-decoration: none;
+  color: black;
+}
+
+
+
